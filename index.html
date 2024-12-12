@@ -4,8 +4,140 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio ScreenCast</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <header>
+        <div id="menubar-mobile">
+            <div class="nav">
     
+                <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+                <input id="drawer_input" class="drawer_hidden" type="checkbox">
+            
+                <!-- ハンバーガーアイコン -->
+                <label for="drawer_input" class="drawer_open"><span></span></label>
+            
+                <!-- メニュー -->
+                <nav class="nav_content">
+                  <ul class="nav_list">
+                    <li class="nav_item"><a href="">About</a></li>
+                    <li class="nav_item"><a href="">Graphics</a></li>
+                    <li class="nav_item"><a href="">Movie</a></li>
+                    <li class="nav_item"><a href="">Programming</a></li>
+                  </ul>
+                </nav>
+           
+              </div>
+
+        </div>
+        <div id="menubar">
+            <div id="logo">
+                <img src="./img/header/logo.png">
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Movie</a></li>
+                    <li><a href="">Programming</a></li>
+                    <li><a href="">Design</a></li>
+                </ul>
+            </div>
+            <div id="contact">
+                <button>CONTACT</button>
+            </div>
+        </div>
+        <div id="header-catch">
+            <div id="header-catch-img">
+                <img src="./img/top/header-catch.png">
+            </div>
+            <div id="header-catch-text">
+                <div class="txt-small-catch">GABRIEL PIRES</div>
+                <div class="txt-title">The Simple,<br>Clean Design</div>
+                <p>Agency provides a full service range including technical skills, design, business understanding.</p>
+                <button>SEE MY WORK</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="main-about">
+            <div id="main-about-image">
+                <img src="./img/top/main-about.png">
+            </div>
+            <div id="main-about-text">
+                <div class="txt-small-catch">GABRIEL PIRES</div>
+                <div class="txt-title">Professinal<br>Web Designer</div>
+                <div class="txt-catch">Provides a full service range</div>
+                <p>Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.</p>
+                <button>ABOUT ME</button>
+            </div>
+        </div>
+        <div id="main-latestwork">
+            <div id="main-latestwork-title">
+                <div class="txt-small-catch">PORTFOLIO</div>
+                <div class="txt-title">Latest Work</div>
+                <button>EXPLORE MORE</button>
+            </div>
+            <div id="main-latestwork-images">
+                <div class="main-latestwork">
+                    <img src="./img/top/work1.png" alt="">
+                    <div class="work-genre">Design</div>
+                    <div class="work-title">SOFA</div>
+                </div>
+                <div class="main-latestwork">
+                    <img src="./img/top/work2.png" alt="">
+                    <div class="work-genre">Branding</div>
+                    <div class="work-title">KeyBoard</div>
+                </div>
+                <div class="main-latestwork">
+                    <img src="./img/top/work3.png" alt="">
+                    <div class="work-genre">Illustration</div>
+                    <div class="work-title">Work Media</div>
+                </div>
+            </div>
+        </div>
+        <div id="main-images">
+            <img src="./img/top/footer-pic1.png" alt="">
+            <img src="./img/top/footer-pic2.png" alt="">
+            <img src="./img/top/footer-pic3.png" alt="">
+            <img src="./img/top/footer-pic4.png" alt="">
+            <img src="./img/top/footer-pic5.png" alt="">
+            <img src="./img/top/footer-pic6.png" alt="">
+        </div>
+    </main>
+    <footer>
+        <div id="footer-main">
+            <div id="footer-title">Portfolio</div>
+            <div id="footer-menus">
+                <div class="footer-menu">
+                    <div class="footer-menu-title">MENU</div>
+                    <div class="footer-menu-item">
+                        <ul>
+                            <li>About</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-menu">
+                    <div class="footer-menu-title">WORK</div>
+                    <div class="footer-menu-item">
+                        <ul>
+                            <li>Graphics</li>
+                            <li>Movie</li>
+                            <li>Programming</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-sns">
+                <ul>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-x-twitter"></i></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div id="footer-sub">Copyright(c)2024 Sammy.<br>All Rights Reserved.</div>
+    </footer>
 </body>
 </html>
